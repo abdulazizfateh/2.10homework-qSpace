@@ -9,6 +9,8 @@ const footerSiteLogo = document.querySelector(".footer-site-logo");
 window.addEventListener("scroll", () => {
     if (document.documentElement.scrollTop > 1) {
         header.style.backgroundColor = "var(--bg)";
+    } else {
+        header.style.backgroundColor = "transparent";
     }
 });
 
