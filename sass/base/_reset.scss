@@ -213,3 +213,49 @@ img {
         line-height: 31.25px;
     }
 }
+
+
+
+// ANIMATION
+.left-right {
+    opacity: 0;
+    animation: lR .65s ease-in-out 0s forwards;
+    transform: translateX(-12px);
+}
+
+.center {
+    opacity: 0;
+    animation: center .4s ease-in-out 0s forwards;
+}
+
+.right-left {
+    opacity: 0;
+    animation: rL .65s ease-in-out 0s forwards;
+    transform: translateX(19px);
+}
+
+
+
+@keyframes lR {
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes center {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rL {
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+
+// ANIMATION
